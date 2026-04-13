@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": "11111111-1111-4111-8111-111111111111",
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "password": "secret123",
+      "created_at": "2026-04-01T09:00:00Z"
+    },
+    {
+      "id": "b82a821c-e255-4567-ac43-2ff46d588169",
+      "name": "dev",
+      "email": "dev@123.com",
+      "password": "dev",
+      "created_at": "2026-04-13T08:17:07.476Z"
+    },
+    {
+      "id": "6d8dd69d-f9aa-4a42-9243-03ac75bbfad6",
+      "name": "skndksa",
+      "email": "skndksa@gmail.com",
+      "password": "csibcisb",
+      "created_at": "2026-04-13T10:25:07.562Z"
+    },
+    {
+      "id": "9436f57c-71b2-4472-9bc5-b73a60d957fc",
+      "name": "test",
+      "email": "test@example.com",
+      "password": "secret123",
+      "created_at": "2026-04-13T10:25:34.283Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "22222222-2222-4222-8222-222222222222",
+      "name": "Website Redesign",
+      "description": "Q2 project",
+      "owner_id": "11111111-1111-4111-8111-111111111111",
+      "created_at": "2026-04-01T10:00:00Z"
+    },
+    {
+      "id": "7b2b14b1-356c-485b-9581-d816da3799b4",
+      "name": "Aritra",
+      "description": null,
+      "owner_id": "6d8dd69d-f9aa-4a42-9243-03ac75bbfad6",
+      "created_at": "2026-04-13T10:25:21.379Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "33333333-3333-4333-8333-333333333333",
+      "title": "Design homepage",
+      "description": "Create first draft for hero section",
+      "status": "done",
+      "priority": "high",
+      "project_id": "22222222-2222-4222-8222-222222222222",
+      "assignee_id": "11111111-1111-4111-8111-111111111111",
+      "due_date": "2026-04-15",
+      "created_at": "2026-04-01T10:30:00Z",
+      "updated_at": "2026-04-13T10:27:47.976Z"
+    }
+  ]
+}
